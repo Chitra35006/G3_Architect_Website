@@ -141,6 +141,10 @@ font-weight: 500;
     margin-bottom: 10px;
     font-weight: 600;
 }
+.fact-title2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 /*Sponsor Style*/
 .sponsor-text-container{
     max-width: 540px;
@@ -154,6 +158,27 @@ font-weight: 500;
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/*Features Section*/
+.features-section{
+    gap: 140px;
+}
+#feature-title{
+    border-left: 6px solid #FF900E;;
+    padding-left: 16px;
+}
+.feature-card .card-tile{
+    font-weight: 600;
+    font-size: 1,25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.feature-card {
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 
  /* responsive media */
  /*Mobile Layout */
